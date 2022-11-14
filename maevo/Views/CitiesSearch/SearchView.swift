@@ -26,12 +26,6 @@ struct SearchView: View {
                         ForEach(searchViewModel.predictions) {prediction in
                             NavigationLink(tag: prediction.id, selection: $selection) {
                                 CityWeatherDetailsView(cityId: prediction.id)
-                                    .background {
-                                        Image("details_background")
-                                            .resizable()
-                                            .aspectRatio(contentMode: .fill)
-                                            .edgesIgnoringSafeArea(.all)
-                                    }
                             } label: {
                                 Text(prediction.description)
                                     .onTapGesture {
@@ -42,7 +36,7 @@ struct SearchView: View {
                                         }
                                         
                                         // Dismiss the keyboard
-                                        UIApplication.shared.sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
+//                                        UIApplication.shared.sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
                                         selection = prediction.id
                                     }
                             }
