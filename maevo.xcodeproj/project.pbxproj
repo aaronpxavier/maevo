@@ -25,7 +25,6 @@
 		93C6500C290E874600813191 /* PlaceDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C6500B290E874600813191 /* PlaceDetails.swift */; };
 		93C65013290E94BC00813191 /* PredictionsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C65012290E94BC00813191 /* PredictionsStore.swift */; };
 		93D3AFD0290C9DD4004FCA4D /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D3AFCF290C9DD4004FCA4D /* SearchViewModel.swift */; };
-		93EBC4CB291B32D9002B216B /* LineChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93EBC4CA291B32D9002B216B /* LineChart.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,7 +47,6 @@
 		93C6500B290E874600813191 /* PlaceDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceDetails.swift; sourceTree = "<group>"; };
 		93C65012290E94BC00813191 /* PredictionsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredictionsStore.swift; sourceTree = "<group>"; };
 		93D3AFCF290C9DD4004FCA4D /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
-		93EBC4CA291B32D9002B216B /* LineChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChart.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,7 +130,6 @@
 		934117962908D62000F39BA0 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				93EBC4C9291B32C2002B216B /* Chart */,
 				93C65015290EF46600813191 /* CityWeatherDetails */,
 				93C65014290EF44B00813191 /* CitiesSearch */,
 			);
@@ -190,14 +187,6 @@
 				93ADBAAD2910BAB600291749 /* CityWeatherDetailsViewModel.swift */,
 			);
 			path = CityWeatherDetails;
-			sourceTree = "<group>";
-		};
-		93EBC4C9291B32C2002B216B /* Chart */ = {
-			isa = PBXGroup;
-			children = (
-				93EBC4CA291B32D9002B216B /* LineChart.swift */,
-			);
-			path = Chart;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,7 +275,6 @@
 				93ADBAAE2910BAB600291749 /* CityWeatherDetailsViewModel.swift in Sources */,
 				93C65013290E94BC00813191 /* PredictionsStore.swift in Sources */,
 				934117982908D62F00F39BA0 /* SearchBar.swift in Sources */,
-				93EBC4CB291B32D9002B216B /* LineChart.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
