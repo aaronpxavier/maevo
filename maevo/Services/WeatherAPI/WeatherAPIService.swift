@@ -12,7 +12,7 @@ class WeatherAPIService: APIBase {
     static let version = "2.5"
     let host = "api.openweathermap.org"
     let path = "/data/\(version)/weather"
-    let apiKey = "bf701e184968c6a3352faef9795f9363"
+    let apiKey = APIKeys.Shared.WX_API_KEY
     let units = "metric"
     var urlComps = URLComponents()
     static let shared = WeatherAPIService()

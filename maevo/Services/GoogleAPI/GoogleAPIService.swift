@@ -11,7 +11,7 @@ import Combine
 class GoogleAPIService: APIBase {
     let host = "maps.googleapis.com"
     let path = "/maps/api/place"
-    let apikey = "AIzaSyB53LhoWafSEtgiVT65yAYj6OpYt-QhvBU"
+    let apikey = APIKeys.Shared.GOOGLE_API_KEY
     var urlComps: URLComponents
     static let shared = GoogleAPIService()
 
