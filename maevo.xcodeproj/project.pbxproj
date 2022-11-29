@@ -17,6 +17,8 @@
 		934117982908D62F00F39BA0 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934117972908D62F00F39BA0 /* SearchBar.swift */; };
 		9341179B2908DA9F00F39BA0 /* GoogleAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9341179A2908DA9F00F39BA0 /* GoogleAPIService.swift */; };
 		9341179D2908DCF500F39BA0 /* PlacesSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9341179C2908DCF500F39BA0 /* PlacesSearch.swift */; };
+		93470F5D2935F0D800C2EE6F /* keys.plist in Resources */ = {isa = PBXBuildFile; fileRef = 93470F5C2935F0D800C2EE6F /* keys.plist */; };
+		93470F5F2935F10800C2EE6F /* Utility in Resources */ = {isa = PBXBuildFile; fileRef = 93470F5E2935F10800C2EE6F /* Utility */; };
 		9347A916290F023D007B168E /* CityWeatherDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9347A915290F023D007B168E /* CityWeatherDetailsView.swift */; };
 		93ADBAAE2910BAB600291749 /* CityWeatherDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93ADBAAD2910BAB600291749 /* CityWeatherDetailsViewModel.swift */; };
 		93ADBAB22910FABF00291749 /* GoogleCitiesRecentSearchStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93ADBAB12910FABF00291749 /* GoogleCitiesRecentSearchStore.swift */; };
@@ -39,6 +41,8 @@
 		934117972908D62F00F39BA0 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		9341179A2908DA9F00F39BA0 /* GoogleAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleAPIService.swift; sourceTree = "<group>"; };
 		9341179C2908DCF500F39BA0 /* PlacesSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesSearch.swift; sourceTree = "<group>"; };
+		93470F5C2935F0D800C2EE6F /* keys.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = keys.plist; sourceTree = "<group>"; };
+		93470F5E2935F10800C2EE6F /* Utility */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Utility; sourceTree = "<group>"; };
 		9347A915290F023D007B168E /* CityWeatherDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityWeatherDetailsView.swift; sourceTree = "<group>"; };
 		93ADBAAD2910BAB600291749 /* CityWeatherDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityWeatherDetailsViewModel.swift; sourceTree = "<group>"; };
 		93ADBAB12910FABF00291749 /* GoogleCitiesRecentSearchStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleCitiesRecentSearchStore.swift; sourceTree = "<group>"; };
@@ -79,6 +83,8 @@
 		9341177B2908BD0B00F39BA0 /* maevo */ = {
 			isa = PBXGroup;
 			children = (
+				93470F5E2935F10800C2EE6F /* Utility */,
+				93470F5C2935F0D800C2EE6F /* keys.plist */,
 				9341177C2908BD0B00F39BA0 /* maevoApp.swift */,
 				934117962908D62000F39BA0 /* Views */,
 				934117932908C1BB00F39BA0 /* Models */,
@@ -247,8 +253,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93470F5D2935F0D800C2EE6F /* keys.plist in Resources */,
 				93ADBAB42911AADC00291749 /* dark_background.pdf in Resources */,
 				934117842908BD0C00F39BA0 /* Preview Assets.xcassets in Resources */,
+				93470F5F2935F10800C2EE6F /* Utility in Resources */,
 				934117812908BD0C00F39BA0 /* Assets.xcassets in Resources */,
 				93ADBAB62911AAE200291749 /* light_background.pdf in Resources */,
 			);
